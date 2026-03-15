@@ -2626,9 +2626,13 @@ section {
   .main-menu__list,
   .main-menu__right .main-menu__call,
   .main-menu__right .main-menu__search-box,
-  .main-menu__right .language-switcher,
-  .main-menu__right .main-menu__login-box {
+  .main-menu__right .language-switcher {
     display: none;
+  }
+
+  .main-menu__login-btn {
+    padding: 8px 16px;
+    font-size: 13px;
   }
 
   .mobile-nav__toggler {
@@ -2921,6 +2925,10 @@ section {
 
   .department-one__title {
     font-size: 15px;
+  }
+
+  .department-one__title br {
+    display: none;
   }
 
   .department-one__icon span {
@@ -3293,10 +3301,6 @@ section {
 
   /* Header */
   .main-menu__btn-box {
-    display: none;
-  }
-
-  .main-menu__login-box {
     display: none;
   }
 
