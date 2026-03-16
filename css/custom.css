@@ -231,10 +231,10 @@ section {
 .main-menu__logo a {
   display: inline-flex;
   align-items: center;
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 600;
   color: var(--text-white);
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .main-menu__logo img {
